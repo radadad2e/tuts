@@ -9,6 +9,7 @@ import us.fosteronline.FSOVisitors.*;
  *   Or, with a visitor, we can write the method outside of the classes, and keep the functional behavior for all classes together.
  * Best bit:
  *   When accept() <=> visit() is established, it is easy to create new functionality without changing any existing interfaces/classes.
+ * 
  */
 
 public class entry {
