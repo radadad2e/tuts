@@ -1,7 +1,7 @@
 package us.fosteronline.FSOVisitors;
 import us.fosteronline.FSOObjects.*;
 
-public class GetSizeVisitor implements FSOVisitorInterface {
+public class SizeVisitor implements FSOVisitorInterface {
   @Override
   public int visit(Directory node) {
     System.out.println("Get Directory size");

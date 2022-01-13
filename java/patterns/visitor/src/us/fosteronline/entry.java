@@ -21,11 +21,11 @@ public class entry {
     SymLink symlink = new SymLink();
     
     // Get object sizes
-    result = dir.accept(new GetSizeVisitor());
+    result = dir.accept(new SizeVisitor());
     System.out.println("Result: " + result);
-    result = file.accept(new GetSizeVisitor());
+    result = file.accept(new SizeVisitor());
     System.out.println("Result: " + result);
-    result = symlink.accept(new GetSizeVisitor());
+    result = symlink.accept(new SizeVisitor());
     System.out.println("Result: " + result);
 
     // Copy objects
