@@ -1,6 +1,7 @@
 package us.fosteronline.FSOVisitors;
 import us.fosteronline.FSOObjects.*;
 
+// Add commentary
 public class CopyVisitor implements FSOVisitorInterface {
   private String tgt;
 
